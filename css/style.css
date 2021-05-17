@@ -1,0 +1,1194 @@
+@font-face {
+	src: url('../fonts/OpenSans-Regular.ttf') format('truetype');
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	src: url('../fonts/OpenSans-Italic.ttf') format('truetype');
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	src: url('../fonts/OpenSans-SemiBold.ttf') format('truetype');
+	font-family: 'Open Sans';
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	src: url('../fonts/OpenSans-Bold.ttf') format('truetype');
+	font-family: 'Open Sans';
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	src: url('../fonts/OpenSans-ExtraBold.ttf') format('truetype');
+	font-family: 'Open Sans';
+	font-weight: 800;
+	font-style: normal;
+}
+
+/*________________________________*/
+
+
+.page {
+	margin: 0;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	display: flex;
+	flex-direction: column;
+
+	min-height: 100vh;
+}
+
+.page-header {
+	padding-top: 29px;
+		background-color: #e0e0e0;
+}
+
+.page_content {
+	flex-grow: 1;
+}
+
+
+/*HEADER*/
+.header {
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+	width: 100%;
+	max-width: 1249px;
+	margin: 0 auto;
+	min-height: 89px;
+	background: #000000;
+	mix-blend-mode: normal;
+	opacity: 0.8;
+}
+
+.menu {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	padding: 0;
+	margin: 0;	
+	margin-left: -20px;
+}
+
+.menu_item {
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+	min-height: 89px;
+}
+
+.menu_item:hover {
+	background-color: #ff3f40;
+}
+
+.menu_link {
+	display: flex;
+	align-items: center;
+	padding: 0 30px;
+	color: #e0e0e0;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/*__________________________________*/
+/*Этаж 1*/
+
+.page_content {
+
+}
+
+.page_intro {
+	background-color: #e0e0e0;
+}
+
+.intro {
+	padding-top: 103px;
+	padding-bottom: 94px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	max-width: 1249px;
+	margin: 0 auto;
+	padding-left: 1vw;
+	padding-right: 1vw;
+}
+
+.intro_content {
+	position: relative;
+	bottom: 11px;
+	width: 617px;
+	margin-bottom: 20px;
+	margin-right: 75px;
+}
+
+.intro_heading {
+	margin: 0;
+	font-size: 60px;
+	list-style: 72px;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 800;
+	letter-spacing: 1.5px;
+}
+
+.intro__heading_style {
+	letter-spacing: 6px;
+	word-break: break-word;
+	hyphens: auto;
+	}
+
+.intro_text {
+	width: 544.85px;
+	height: 73px;
+	left: 165px;
+	top: 373.52px;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15.9953px;
+	line-height: 28px;
+
+	display: flex;
+	align-items: center;
+
+	color: #000000;
+}
+
+.intro_button {
+	box-sizing: border-box;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	display: inline-block;
+	width: 227px;
+	padding: 16px 0;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 5px;
+	background: #FF2D2D;
+	color: #ffffff;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.intro_img_link {
+	width: 70px;
+	height: 69px;
+	left: 1105px;
+	top: 365px;
+
+	background: #FFFFFF;
+	mix-blend-mode: normal;
+	opacity: 0.8;
+}
+
+.intro_img {
+	width: 551px;
+	height: 356px;
+	left: 864px;
+	top: 221px;
+}
+
+
+/*_______________________*/
+/*Этаж 2*/
+
+.services {
+	display: flex;
+	width: 1251px;
+	height: 588.53px;
+	left: 163px;
+	top: 795.47px;
+
+	padding-top: 106px;
+	padding-bottom: 53px;
+	border-bottom: 1px solid #ececec;
+
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	max-width: 1249px;
+	margin: 0 auto;
+	padding-left: 1vw;
+	padding-right: 1vw;
+}
+
+.services_01 {
+	flex: 1 1 502px;
+	max-width: 502px;
+	margin-bottom: 50px;
+	margin-right: 50px;
+}
+
+.services_heading {
+	width: 523px;
+	height: 87px;
+	left: 164px;
+	top: 795.47px;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 42.1902px;
+	line-height: 55px;
+
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.422159px;
+	text-transform: uppercase;
+
+	color: #000000;
+
+    bottom: 5px;
+	margin-bottom: 27px;
+}
+
+.services_text {
+	width: 539px;
+	height: 98px;
+	left: 164px;
+	top: 933px;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 28px;
+
+	display: flex;
+	align-items: center;
+
+	color: #000000;
+}
+
+.services_button {
+	width: 148.35px;
+	height: 24px;
+	left: 223px;
+	top: 1110.39px;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: center;
+	text-decoration: none;
+	background: #FF2D2D;
+	border-radius: 5px;
+	padding: 16px 0;
+	width: 227px;
+	display: inline-block;
+}
+
+.service_button_white {
+	width: 227px;
+	height: 55px;
+	left: 163px;
+	top: 1095px;
+
+	background: rgba(0, 0, 0, 0.0001);
+	border: 2px solid #FF0000;
+	box-sizing: border-box;
+}
+
+.services_blocks {
+	width: 610.01px;
+	height: 485px;
+	left: 803.99px;
+	top: 796px;
+	max-width: 609px;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.service {
+	width: 610.01px;
+
+	left: 803.99px;
+	top: 796px;
+
+	flex: 1 1 288px;
+	width: 288px;
+	margin-bottom: 5px;
+}
+
+.service:nth-child(odd) { 
+	margin-right: 32px;
+ }
+
+ .service_heading {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 24.0692px;
+	line-height: 0px;
+
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.271838px;
+
+	color: #000000;
+ }
+
+.service_heading:before {
+	display: block;
+	width: 41px;
+	height: 41px;
+	margin-bottom: 23px;
+}
+
+.service__text {
+	opacity: 0.7;
+}
+
+
+/*___________________________*/
+/*Этаж 3*/
+
+.feature {
+	padding-top: 94px;
+	padding-bottom: 52px;
+
+	width: 1432px;
+	height: 930px;
+	left: 52px;
+	top: 1488px;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	max-width: 1249px;
+	margin: 0 auto;
+	padding-left: 1vw;
+	padding-right: 1vw;
+}
+
+.feature_header{
+	width: 100%;
+	text-align: center;
+	margin-bottom: 67px;
+}
+
+.feature_heading {
+	padding-left: 14px;
+	margin-bottom: 16px;
+	margin: 0 auto 30px;
+
+	width: 452.85px;
+	height: 32px;
+	left: 577.57px;
+	top: 1488px;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 41.9876px;
+	line-height: 0px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.3834px;
+	text-transform: uppercase;
+	opacity: 0.7;
+}
+
+.feature_text {
+	width: 536.85px;
+	height: 45px;
+	left: 536.57px;
+	top: 1548.52px;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15.9953px;
+	line-height: 28px;
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+
+	color: #000000;
+
+	max-width: 500px;
+	margin: 0 auto 30px;
+	opacity: 0.7;
+}
+
+.header_line {
+	width: 134px;
+	height: 5px;
+	left: 737px;
+	top: 1627px;
+
+	background: #FF2D2D;
+	border: none;
+}
+
+.products__filter {
+	width: 922px;
+	height: 24px;
+	left: 365px;
+	top: 1718px;
+
+	width: 100%;
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.products_link{
+	position: relative;
+	left: 45px;
+	color: #000;
+	margin-right: 55px;
+	font-size: 22px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 600;
+	text-decoration: none;
+	text-transform: uppercase;
+	opacity: 0.7;
+}
+
+.products_link_active {
+	color: #ff2d2d;
+	opacity: 1;
+}
+
+.products_link:hover {
+	color: #ff2d2d;
+}
+
+.product {
+	width: 301px;
+	height: 293px;
+
+	flex: 1 1 24%;
+	min-width: 250px;
+	max-width: 299px;
+	object-fit: cover;
+}
+
+.products {
+	width: 1432px;
+	height: 683px;
+	margin-bottom: 18px;
+
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	flex-wrap: wrap;
+
+	background: rgba(0, 0, 0, 0.0001);
+}
+
+
+/*________________________________*/
+/*Этаж 4*/
+
+.team {
+	padding-top: 60px;
+	padding-bottom: 110px;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: flex-start;
+	max-width: 1249px;
+	margin: 0 auto;
+	padding-left: 1vw;
+	padding-right: 1vw;
+}
+
+.team_header {
+	width: 100%;
+	text-align: left;
+	margin-bottom: 67px;
+}
+
+.team_heading {
+	width: 373.85px;
+	height: 32px;
+	left: 138.57px;
+	top: 2540px;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 41.9876px;
+	line-height: 0px;
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 0.3834px;
+	text-transform: uppercase;
+
+	color: #000000;
+
+	margin-bottom: 23px;
+}
+
+.team_text {
+	width: 478.85px;
+	height: 73px;
+	left: 166px;
+	top: 2606.52px;
+	
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15.9953px;
+	line-height: 28px;
+	
+	display: flex;
+	align-items: center;
+	
+	color: #000000;
+
+		max-width: 460px;
+	margin-bottom: 30px;
+}
+
+.team_line {
+	width: 134px;
+	height: 5px;
+	left: 165px;
+	top: 2717px;
+
+	background: #FF2D2D;
+
+	margin-left: 0;
+}
+
+.team_members {
+	width: 100%;
+	display: flex;
+	align-items: stretch;
+	align-content: space-between;
+	min-height: 458px;
+}
+
+.team_selected-photo {
+	width: 422px;
+	height: 462px;
+	left: 112px;
+	top: 2788px;
+
+	flex-shrink: 0;
+	width: 321px;
+	height: 458px;
+	margin-right: 65px;
+	background-color: #eb6d4a8f;
+	align-self: flex-start;
+}
+
+.team_main-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.team_selected-info {
+    display: flex;
+	flex-direction: column;
+	align-self: start;
+    justify-content: space-between;
+	max-width: 642px;
+	margin-top: -7px;: column;
+}
+
+.team_selected-name {
+	width: 239.83px;
+	height: 23px;
+	left: 557px;
+	top: 2805px;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 30.127px;
+	line-height: 0px;
+
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.275265px;
+	text-transform: uppercase;
+
+	color: #000000;
+
+}
+
+.team_selected-about {
+	width: 662.85px;
+	height: 45px;
+	left: 558px;
+	top: 2857.52px;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15.9953px;
+	line-height: 28px;
+
+	display: flex;
+	align-items: center;
+
+	color: #000000;
+
+	margin-bottom: 34px;
+	}
+
+.team_selected-link {
+	width: 401px;
+	height: 24px;
+	left: 559px;
+	top: 2949px;
+
+	color: #000;
+	font-size: 18px;
+	margin-right: 30px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-style: italic;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.team_selected-link:hover {
+	text-decoration: underline;
+}
+
+.members {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.member{
+	position: relative;
+	margin-top: 18px;
+}
+
+.member:not(:last-child) {
+	margin-right: 18px;
+}
+
+.member_name {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	visibility: hidden;
+	color: #ffffff;
+	position: absolute;
+	width: 100%;
+	height: 37px;
+	text-align: center;
+	background-color: #000;
+	opacity: 0.5;
+	bottom: 0;
+}
+
+.member:hover > .member__name {
+	visibility: visible;
+}
+
+.member_photo {
+	display: block;
+		width: 197px;
+	height: 214px;
+	background-color: #d4dce680;
+}
+
+
+/*_________________________*/
+/*Этаж 5*/
+.subscribe {
+	width: 100%;
+	align-items: center;
+	background-color: #2c2c2c;
+	padding-top: 124px;
+    padding-bottom: 140px;
+}
+
+.subscribe_header {
+	max-width: 1249px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.subscribe_heading {
+	width: 1129px;
+	height: 43px;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 42px;
+	line-height: 24px;
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	letter-spacing: 1.05px;
+	color: #FFFFFF;
+}
+
+.subscribe_text {
+	width: 573.85px;
+	height: 25.56px;
+	left: 501.57px;
+	top: 3566.52px;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15.9953px;
+	line-height: 28px;
+
+	display: flex;
+	align-items: center;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.subscribe_form { 
+	display: flex;
+    justify-content: center;
+}
+
+.input_subscribe-mail {
+	width: 524px;
+	height: 80px;
+	background: #FFFFFF;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+
+	align-items: center;
+	letter-spacing: 0.4px;
+	color: #2C2C2C;
+	border: none;
+}
+
+.subscribe_button {
+	width: 217px;
+	height: 82px;
+	background: #FF2D2D;
+	border: none;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 17.9026px;
+	line-height: 34px;
+
+	align-items: center;
+	letter-spacing: 0.317046px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+}
+
+/*_________________________*/
+/*Этаж 6*/
+
+
+.feedback_contacts {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: flex-end;
+	padding-top: 92px;
+	padding-bottom: 110px;
+}
+
+.feedback_left-box {
+	left: 161px;
+	top: 3976px;
+	flex: 1 1 auto;
+}
+
+.feedback {
+
+}
+
+.feedback_header {
+	box-sizing: border-box
+}
+
+.feedback_heading {
+	margin-bottom: 34px;
+
+	width: 328.85px;
+	height: 32px;
+	left: 164px;
+	top: 3976px;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 41.9876px;
+	line-height: 0px;
+
+	display: flex;
+	align-items: center;
+	letter-spacing: 0.3834px;
+	text-transform: uppercase;
+
+	color: #000000;
+}
+
+.feedback_text {
+	max-width: 720px;
+	margin-bottom: 50px;
+
+	width: 752.85px;
+	height: 73px;
+	left: 165px;
+	top: 4053.52px;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15.9953px;
+	line-height: 28px;
+
+	display: flex;
+	align-items: center;
+
+	color: #000000;
+
+}
+
+.feedback_line {
+	margin-left: 0;
+	margin-bottom: 75px;
+
+	width: 134px;
+	height: 5px;
+	background: #FF2D2D;
+	border: none;
+}
+
+.feedback_body {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	width: 100%;
+	max-width: 731px;
+	margin-right: 107px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.feedback_form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.input_name {
+	width: 342px;
+	height: 71px;
+	border-radius: 10px;
+	margin-right: 26px;
+	border: none;
+	background-color: #f3f3f3;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18.0412px;
+	line-height: 34px;
+	letter-spacing: 0.3195px;
+	color: #000000;
+	mix-blend-mode: normal;
+
+}
+
+.input_feedback-mail {
+	width: 342px;
+	height: 71px;
+	border-radius: 10px;
+	border: none;
+	background-color: #f3f3f3;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15.9134px;
+	line-height: 28px;
+	color: #000000;
+	mix-blend-mode: normal;
+
+}
+
+.input_massage {
+	border: none;
+	border-radius: 10px;
+	margin: 35px 35px 35px 0;
+	width: 723px;
+	height: 252px;
+	background-color: #f3f3f3;
+
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15.9134px;
+	line-height: 28px;
+	color: #000000;
+	mix-blend-mode: normal;
+}
+
+.feedback_button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	max-width: 731px;
+	height: 72px;
+	color: #fff;
+	font-size: 18px;
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	background-color: #ff2d2d;
+	border: none;
+	border-radius: 5px;
+	text-transform: uppercase;
+
+}
+
+/* Contacts */
+.contacts {
+	box-sizing: border-box;
+	position: relative;
+	color: #e0e0e0;
+	background-color: #2c2c2c;
+	box-sizing: border-box;
+	padding: 125px 53px 125px 78px;
+	min-height: 481px;
+	max-width: 411px;
+}
+
+.contacts_heading {
+	color: #e0e0e0;
+	font-size: 18px;
+	margin-bottom: 13px;
+}
+
+.contacts_address {
+	line-height: 1.75;
+}
+
+.contacts_line {
+	margin-bottom: 17px;
+}
+
+.feedback_right-box {
+	min-height: 481px;
+	flex: 1 1 auto;
+}
+
+.contacts_decor {
+	background-color: #2c2c2c;
+}
+
+.contacts::after {
+	display: block;
+	position: absolute;
+	top: 0;
+	right: 0;
+	transform: translateX(100%);
+
+	width: 100vw;
+	height: 100%;
+	background-color: #2c2c2c;
+}
+
+
+
+/*__________________________*/
+/*Подвал*/
+
+.footer {
+	background-color: #2c2c2c;
+	padding: 0 1vw;
+}
+
+.footer_content {
+	box-sizing: border-box;
+	padding: 19px 0 0;
+	color: #e0e0e0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 110px;
+	background-color: #2c2c2c;
+}
+
+.footer_social-links > .footer_link:not(:last-child) {
+	margin-right: 18px;
+}
+
+.footer_link {
+	display: inline-block;
+}
+
+
+/* Responsive */
+@media screen and (max-width: 1286px) {
+	.intro {
+		flex-wrap: nowrap;
+	}
+	.intro_content {
+		width: 50%;
+		box-sizing: border-box;
+		margin-right: 0;
+		padding-right: 15px;
+	}
+	.intro_heading {
+		font-size: 5vw;
+	}
+	.intro_image_link {
+		width: 50%;
+	}
+	.intro_img {
+		width: 100%;
+		height: auto;
+	}
+	.products {
+		justify-content: flex-start;
+	}
+	.product {
+		max-width: 100%;
+		margin-right: 1vw;
+	}
+	.feedback {
+		margin: 0 auto;
+		margin-bottom: 30px;
+		padding: 0 1vw;
+		grid-column: 1 / 6;
+		grid-row: 1 / 2;
+	}
+	.feedback_body {
+		margin-right: 0;
+	}
+	.feedback_contacts {
+		flex-wrap: wrap;
+		padding-left: initial;
+		padding-right: initial;
+		padding-bottom: 0;
+		grid-template-columns: 100%;
+	}
+	.feedback_left-box {
+		flex: 0 1 auto;
+	}
+	.contacts {
+		width: 100%;
+		max-width: 100%;
+		grid-column: 1 / 6;
+		grid-row: 2 / 3;
+	}
+	.contacts-background {
+		display: none;
+	}
+	.feedback_contacts::after {
+		content: initial;
+	}
+}
+
+@media screen and (max-width: 907px) {
+	.services_01,
+	.services_blocks {
+		width: 100%;
+		max-width: 100%;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.products_item {
+		width: 100%;
+		text-align: center;
+	}
+	.services {
+		justify-content: center;
+	}
+}
+
+@media screen and (max-width: 855px) {
+	.team_members {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.team_selected-photo {
+		margin-bottom: 18px;
+		margin-right: 0;
+	}
+} 
+
+@media screen and (max-width: 800px) {
+	.services_01 {
+		width: 100%;
+		max-width: 100%;
+	}
+	.services_blocks {
+		width: 100%;
+		max-width: 100%;
+	}
+	.contacts {
+		padding: 1vw;
+	}
+}
+
+@media screen and (max-width: 760px) {
+	.feedback_name,
+	.feedback_mail,
+	.feedback_message,
+	.feedback_button {
+		width: 100%;
+	}
+	.feedback_name {
+		margin-right: 0;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.header {
+		padding-left: 20px;
+	}
+	.intro {
+		flex-wrap: wrap;
+	}
+	.intro_content {
+		width: 100%;
+	}
+	.intro_img_link {
+		width: 100%;
+	}
+	.intro_image {
+		width: 100%;
+		height: auto;
+	}
+	.intro_heading {
+		font-size: 50px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.subscribe_form {
+		flex-wrap: wrap;
+	}
+}
